@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{6D1D0955-7A10-4B6C-9A20-D76C58F510E4}|Default">
+  <MonoDevelop.Ide.ItemProperties.HerrcoApp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HerrcoApp/Models/SpreadSheetModel.cs">
+    <Files>
+      <File FileName="HerrcoApp/Views/Home/Instructions.cshtml" Line="17" Column="5" />
+      <File FileName="HerrcoApp/Models/SpreadSheetModel.cs" Line="147" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HerrcoApp" expanded="True">
+            <Node name="HerrcoApp" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="SpreadSheetModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

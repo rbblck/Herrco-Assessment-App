@@ -6349,11 +6349,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/robertblack/Dropbox/HerrcoApp/HerrcoApp/HerrcoApp.csproj",
+      "projectUniqueName": "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoApp/HerrcoApp.csproj",
       "projectName": "HerrcoApp",
-      "projectPath": "/Users/robertblack/Dropbox/HerrcoApp/HerrcoApp/HerrcoApp.csproj",
+      "projectPath": "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoApp/HerrcoApp.csproj",
       "packagesPath": "/Users/robertblack/.nuget/packages/",
-      "outputPath": "/Users/robertblack/Dropbox/HerrcoApp/HerrcoApp/obj/",
+      "outputPath": "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/robertblack/.config/NuGet/NuGet.Config"

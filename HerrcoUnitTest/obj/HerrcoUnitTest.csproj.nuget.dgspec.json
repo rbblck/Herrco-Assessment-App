@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/robertblack/Dropbox/HerrcoApp/HerrcoUnitTest/HerrcoUnitTest.csproj": {}
+    "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoUnitTest/HerrcoUnitTest.csproj": {}
   },
   "projects": {
-    "/Users/robertblack/Dropbox/HerrcoApp/HerrcoApp/HerrcoApp.csproj": {
+    "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoApp/HerrcoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/robertblack/Dropbox/HerrcoApp/HerrcoApp/HerrcoApp.csproj",
+        "projectUniqueName": "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoApp/HerrcoApp.csproj",
         "projectName": "HerrcoApp",
-        "projectPath": "/Users/robertblack/Dropbox/HerrcoApp/HerrcoApp/HerrcoApp.csproj",
+        "projectPath": "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoApp/HerrcoApp.csproj",
         "packagesPath": "/Users/robertblack/.nuget/packages/",
-        "outputPath": "/Users/robertblack/Dropbox/HerrcoApp/HerrcoApp/obj/",
+        "outputPath": "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/robertblack/.config/NuGet/NuGet.Config"
@@ -81,14 +81,14 @@
         }
       }
     },
-    "/Users/robertblack/Dropbox/HerrcoApp/HerrcoUnitTest/HerrcoUnitTest.csproj": {
+    "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoUnitTest/HerrcoUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/robertblack/Dropbox/HerrcoApp/HerrcoUnitTest/HerrcoUnitTest.csproj",
+        "projectUniqueName": "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoUnitTest/HerrcoUnitTest.csproj",
         "projectName": "HerrcoUnitTest",
-        "projectPath": "/Users/robertblack/Dropbox/HerrcoApp/HerrcoUnitTest/HerrcoUnitTest.csproj",
+        "projectPath": "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoUnitTest/HerrcoUnitTest.csproj",
         "packagesPath": "/Users/robertblack/.nuget/packages/",
-        "outputPath": "/Users/robertblack/Dropbox/HerrcoApp/HerrcoUnitTest/obj/",
+        "outputPath": "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoUnitTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/robertblack/.config/NuGet/NuGet.Config"
@@ -103,8 +103,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/robertblack/Dropbox/HerrcoApp/HerrcoApp/HerrcoApp.csproj": {
-                "projectPath": "/Users/robertblack/Dropbox/HerrcoApp/HerrcoApp/HerrcoApp.csproj"
+              "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoApp/HerrcoApp.csproj": {
+                "projectPath": "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoApp/HerrcoApp.csproj"
               }
             }
           }
