@@ -1,0 +1,160 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="">
+    <div style="background-color: lightblue;" class="row">
+        <div class="col">
+            <h1 class="display-4">Live Reporting</h1>
+        </div>
+    </div>
+    <br />
+    <div class="row text-center">
+        <div class="col">
+            <h3>Crudops Live Updates</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-0 col-md-4">
+
+
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <div>
+                <canvas id="my_pie_chart"></canvas>
+            </div>
+        </div>
+        <div class="col-sm-0 col-md-4">
+
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col d-flex justify-content-end">
+            <a asp-area="" asp-controller="Home" asp-action="Index">
+                <span class="update-button">+</span>
+            </a>
+        </div>
+    </div>
+    <br />
+    <div id="tickerwrap">
+        <section class="marquee"><span id="ticker" class="news-marquee"></span></section>
+    </div>
+</div>
+
+@section Scripts{
+
+    <script type="text/javascript">
+
+        // Alters the tickertape spped according to the string length.
+        function calcSpeed(speed) {
+
+            // Time = Distance/Speed
+
+            var spanSelector = document.getElementById("ticker");
+            var spanLength = spanSelector.offsetWidth;
+            var timeTaken = (spanLength / speed);
+
+            spanSelector.style.animationDuration = timeTaken + "s";
+
+        }
+
+        // Adds the right white space to the ticker tape string for effect.
+        function getWhiteSpace() {
+
+            var spanSelector = document.getElementById("ticker");
+            var spanLength = spanSelector.offsetWidth;
+            let scrWidth = screen.width;
+
+
+            var finalValue = (scrWidth);
+
+            return finalValue;
+
+        }
+
+        // Organises the tickertape string to be displayed.
+        function getUpdates() {
+
+            var updatehArray = convertToArray("@ViewBag.chgMsgArr")
+            var updateHtml = "";
+
+            if (updatehArray == "") {
+
+                document.getElementById("tickerwrap").style.display = "none";
+
+            } else {
+
+                document.getElementById("tickerwrap").style.display = "block";
+
+                for (var i = 0; i < updatehArray.length; i++) {
+                    
+                    updateHtml += "<strong>Update: </strong>";
+                    updateHtml += updatehArray[i];
+                    updateHtml += ";  ";
+
+                }
+
+                document.getElementById("ticker").innerHTML = updateHtml;
+
+                var offset = getWhiteSpace();
+
+                updateHtml += '<span style="color: white; font-size: 2.5px">';
+
+                for (let i = 0; i < offset; i++) {
+                    updateHtml += ".";
+                }
+
+                updateHtml += "</span>";
+
+                document.getElementById("ticker").innerHTML = updateHtml;
+
+                let constSpeed = 100;
+                calcSpeed(constSpeed);
+
+            }
+
+        }
+
+        $(function () {
+
+            var ar = convertToArray("@ViewBag.chartDataArr");
+            var titleArray = convertToArray("@ViewBag.titleArr")
+
+            var ctx = document.getElementById("my_pie_chart").getContext('2d');
+            var myPieChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: titleArray,
+                    datasets: [
+                        {
+                            backgroundColor: ["#006400", "#FFA500", "#FF0000", "#0000FF", "#D3D3D3"],
+                            data: ar,
+                        }
+                    ]
+                },
+                options: {
+                    title: {
+                        display: false,
+                        text: 'Crudops Live Updates'
+                    },
+                    legend: {
+                        display: true,
+                        position: 'right',
+                    }
+                }
+            });
+        });
+
+        function convertToArray(str) {
+            var para = document.createElement("p");
+            para.innerHTML = str;
+            var ar = JSON.parse(para.innerHTML);
+            return ar;
+        }
+
+        getUpdates();
+
+    </script>
+
+}

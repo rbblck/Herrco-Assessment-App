@@ -1,0 +1,27 @@
+﻿a {
+    text-decoration: none !important;
+}
+
+.dot {
+    background-color: red;
+}
+
+.update-button {
+    font-size: 50px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid black;
+    line-height: 62px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+}
+
+.update-button:hover {
+    background-color: #4095c6;
+}

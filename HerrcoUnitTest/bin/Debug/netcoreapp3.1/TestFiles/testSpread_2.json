@@ -1,0 +1,50 @@
+﻿{
+  "id": 0,
+  "name": "Sheet1",
+  "rows": [
+    {
+      "id": 0,
+      "cells": [
+        {
+          "columnId": 0,
+          "rowId": 0,
+          "value": "08253efd-dc28-4d95-8e2f-ccbcb5070815"
+        },
+        {
+          "columnId": 1,
+          "rowId": 0,
+          "value": "P001018"
+        },
+        {
+          "columnId": 2,
+          "rowId": 0,
+          "value": "Hand Soap-1914"
+        },
+        {
+          "columnId": 3,
+          "rowId": 0,
+          "value": "WH6-0"
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "id": 0,
+      "name": "Id"
+    },
+    {
+      "id": 1,
+      "name": "PalletId"
+    },
+    {
+      "id": 2,
+      "name": "ProductDescription"
+    },
+    {
+      "id": 3,
+      "name": "LocationId"
+    }
+  ]
+}
+
