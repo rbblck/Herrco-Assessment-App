@@ -9,7 +9,7 @@ namespace HerrcoApp.Classes.BusinessLogic
 {
     public class ChangeDiscoveryClass : IChangeDiscoveryClass
     {
-        // Hello
+        // Hi
         /// <summary>
         /// Returns a data structure containing the required change messages.
         /// </summary>
