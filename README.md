@@ -25,3 +25,17 @@
 8.    The app should open in the browser.
 
 <strong>Instructions</strong>
+
+<p>
+    The home page is the main app page for the live updates for the spread sheet.  It is initialised with a blank donut chart and the key / values are all 0.
+</p>
+
+<p>To get any CRUD update click or tap the floating update button at the bottom left part of the screen and it will
+    compare the latest state of the spread sheet with the state it was in since the app was started or since the last
+    click or tap of the update button.
+</p>
+
+<p>
+    Any update will be displayed in a tickertape at the bottom of the screen, prefixed by the word “Update” followed
+    by the product id, any changed values (the original value and the updated value).
+</p>
