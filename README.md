@@ -1,6 +1,6 @@
 # Herrco-Assessment-App
 
-<strong>To run the app locally widows</strong>
+<strong>To run the app locally on Widows</strong>
 
 1.    Make sure that .NET and Git is installed on your system.
 2.    Create a folder where you would like to download the app.
@@ -12,7 +12,7 @@
 7.    Open the web browser and type with the url “https://locahost:5001” and enter.
 8.    The app should open in the browser.
 
-<strong>To run the app locally on mac os</strong>
+<strong>To run the app locally on MacOS</strong>
 
 1.    Make sure that .NET and Git is installed on your system.
 2.    Create a folder where you would like to download the app.
