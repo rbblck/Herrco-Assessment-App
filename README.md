@@ -30,7 +30,7 @@
     The home page is the main app page with live updates for the spread sheet on demand.  It is initialised with a blank donut chart and the key / values are all 0.
 </p>
 
-<p>To get the number of CRUD updates, click or tap the floating update button at the bottom left part of the screen and it will compare the latest state of the spread sheet with the state it was in since the app was started or since the last click or tap of the update button.
+<p>To get the number of CRUD updates, click or tap the floating update button at the bottom right part of the screen and it will compare the latest state of the spread sheet with the state it was in since the app was started or since the last click or tap of the update button.
 </p>
 
 <p>

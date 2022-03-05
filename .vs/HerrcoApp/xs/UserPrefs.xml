@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.ItemProperties.HerrcoApp PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="HerrcoApp/Views/Home/Instructions.cshtml">
     <Files>
-      <File FileName="HerrcoApp/Views/Home/Instructions.cshtml" Line="31" Column="34" />
+      <File FileName="HerrcoApp/Views/Home/Instructions.cshtml" Line="19" Column="111" />
       <File FileName="HerrcoApp/Models/SpreadSheetModel.cs" />
-      <File FileName="HerrcoApp/Views/Home/Index.cshtml" Line="30" Column="11" />
+      <File FileName="HerrcoApp/Views/Home/Index.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,6 +16,17 @@
                 <Node name="Home" expanded="True">
                   <Node name="Instructions.cshtml" selected="True" />
                 </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="HerrcoApp" expanded="True" selected="True">
+            <Node name="HerrcoUnitTest" expanded="True">
+              <Node name="HerrcoUnitTest" expanded="True">
+                <Node name="UnitTest1" expanded="True" />
               </Node>
             </Node>
           </Node>

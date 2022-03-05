@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lVuFYQfZToyAX70mfz16gnpdOh52NMjykjA/I/u6NYeko8qj89856tnrJZl6NcRxnR9IZNncuDgAxJqKpA12nA==",
+  "dgSpecHash": "VoNVaVfw3nTwTZfkxE/q+b5MFIq6fUW86mZ9/L5v+PRyV74FPRI9D1nZ+9u0SWEaJY/IOMq19CIS0R+RWQOVRg==",
   "success": true,
-  "projectFilePath": "/Users/robertblack/Desktop/HerrcoAppAssessment/HerrcoUnitTest/HerrcoUnitTest.csproj",
+  "projectFilePath": "/Users/robertblack/Desktop/untitled folder 2/Herrco-Assessment-App/HerrcoUnitTest/HerrcoUnitTest.csproj",
   "expectedPackageFiles": [
     "/Users/robertblack/.nuget/packages/chart.js/2.9.3/chart.js.2.9.3.nupkg.sha512",
     "/Users/robertblack/.nuget/packages/comparenetobjects/4.75.0/comparenetobjects.4.75.0.nupkg.sha512",
